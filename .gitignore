@@ -34,4 +34,7 @@
 .Spotlight-V100
 .Trashes
 ehthumbs.db
-Thumbs.db
+Thumbs.d
+.settings
+.classpath
+.projectb
