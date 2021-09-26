@@ -7,9 +7,9 @@ public class PrimeNumbersWithWhileLoop {
 		int numberOfPrimes = 10; // we want to find first 50 prime numbers
 		int count = 0; // it will increase if a number is prime
 		int number = 2; // a number to be tested for the primeness
-		boolean isPrime = true;
+		
 		while (count < numberOfPrimes) {
-			//boolean isPrime = true; // we have to keep it here, 
+			boolean isPrime = true; // we have to keep it here, 
 			for (int divisor = 2; divisor < number; divisor++) {
 				if (number % divisor == 0) { // if the result is not ZERO, it is not prime
 					isPrime = false; // boolean statement will be false
