@@ -16,25 +16,28 @@ public class DayTwoReview {
 
 		String str = input.nextLine();
 
+		isPalindrome(str);
+		
+	}
+
+	public static boolean isPalindrome(String str) {
 		int low = 0; // first index
 		int high = str.length() - 1; // last index
-		boolean isPalindrome = true;
+		//boolean isPalindrome = true;
 
 		// divided by two logic is to save from the time. 
 		for (int i = 0; i < str.length()/2; i++) {
 			if (str.charAt(low) != str.charAt(high)) {
-				isPalindrome = false;
-				System.out.println("not a palindrome");
-				break;
+				//isPalindrome = false;
+				//System.out.println("not a palindrome");
+				return false;
+				//break;
 			}
 			// low will get closer to the last index
 			low++; // if I do this, the next index will be the index 2 to be checked
 			high--; // it will get closer to the first index
 		}
 
-		if (isPalindrome) {
-			System.out.println("The input is a palindrome");
-		}
-
+		return true;
 	}
 }
