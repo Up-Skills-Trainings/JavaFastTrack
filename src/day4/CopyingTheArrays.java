@@ -18,6 +18,7 @@ public class CopyingTheArrays {
 		// I need to reach out the index of the arr2 and arr1
 		// if you want to make any array manipulation, we have to create a foor loop
 		for (int i = 0; i < arr2.length; i++) {
+			//arr2[i] >> it return an integer, number 
 			arr1[i] = arr2[i];
 		}
 		
