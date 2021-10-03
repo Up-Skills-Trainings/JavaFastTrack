@@ -22,9 +22,9 @@ public class TwoSum {
 			//arr[0] = 1
 			for (int j = i + 1; j < arr.length; j++) {
 				if(arr[i] + arr[j] == target) {
-					//return new int[] {arr[i], arr[j]};
-					array[0] = arr[i];
-					array[1] = arr[j];
+					//return the index of the numbers that give us the target number
+					array[0] = i;
+					array[1] = j;
 				}
 			}
 		}

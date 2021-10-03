@@ -12,6 +12,7 @@ public class StaticKeyword {
 	// Answer
 	// static is the most important keyword in Java
 	// everything till OOP happens with the static members
+	// when we work with OOP, we work with objects (non-static members)
 	// static separates the functional programming from the procedural programming
 	// we have two things in Java
 	// 1 - static member > anything that belongs to Class
