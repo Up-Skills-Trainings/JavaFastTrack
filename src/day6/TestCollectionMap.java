@@ -43,5 +43,26 @@ public class TestCollectionMap {
 		}
 		
 		System.out.println(map.size());
+		
+		Map<String, String> map2 = new HashMap<>();
+
+		map2.put("city", "paris");
+		map2.put("animal", "cat");
+		map2.put("country", "UK");
+		map2.put("team", "cowboys");
+
+		System.out.println(map2);
+
+		map2.remove("animal");
+		
+		map2.put("country", map.get("country") + " France");
+		
+		System.out.println(map2);
+		
+		if(map2.containsKey("team")) {
+			System.out.println("smth here");
+		}
+		
+		System.out.println(map2.size());
 	}
 }
