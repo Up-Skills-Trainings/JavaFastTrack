@@ -6,7 +6,7 @@ public class ConditionSyntax {
 		int applePrice = 5;
 		int orangePrice = 10;
 
-		// this is how we write in one line of condition statement
+		// this is how to write in a single line of condition statement
 		System.out.println(applePrice > orangePrice ? "Apple wins" : "Orange wins");
 	}
 }

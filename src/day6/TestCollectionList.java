@@ -27,7 +27,7 @@ public class TestCollectionList {
 		 * Collections.frequency(list, object)
 		 */
 
-		ArrayList<String> list = new ArrayList<>();
+		List<String> list = new ArrayList<>();
 		
 		// adding the new data
 		list.add("Dallas");

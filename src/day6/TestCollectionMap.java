@@ -26,7 +26,7 @@ public class TestCollectionMap {
 		 * into them.
 		 */
 
-		Map<String, String> map = new LinkedHashMap<>();
+		Map<String, String> map = new HashMap<>();
 
 		map.put("city", "paris");
 		map.put("animal", "cat");

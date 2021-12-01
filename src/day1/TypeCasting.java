@@ -10,8 +10,6 @@ public class TypeCasting {
 	 */
 
 	public static void main(String[] args) {
-		// Java is not a pure OOP language >> because we have primitive types in Java
-
 		int num = 10;
 		double num1 = 20;
 
