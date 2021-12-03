@@ -9,6 +9,7 @@ public class TestCollectionSets {
 		 * No duplicate elements.
 		 * 
 		 * Three concrete classes of Set are HashSet, LinkedHashSet, and TreeSet 
+		 * 
 		 * HashSet >> Just a regular class that we can use >> not ordered >> not even insertion
 		 * ordered >> it is faster than other two Set structure
 		 * 
@@ -22,7 +23,7 @@ public class TestCollectionSets {
 		 * 
 		 * In TreeSet, which guarantees that the elements in the set are sorted.
 		 */
-		Set<String> set = new HashSet<String>();
+		Set<String> set = new LinkedHashSet<String>();
 		
 		// adding the new data
 		set.add("Dallas");
