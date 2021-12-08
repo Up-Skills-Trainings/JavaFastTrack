@@ -1,8 +1,6 @@
-package javaFastTrack2.day03;
+package javaFastTrack2.day04;
 
-import java.util.*;
-
-public class PalindromicPrimes {
+public class Day3Review {
 	// we want to find the palindromic primes.
 	// 313 353 373 383 727 757 787 797 919 929
 	public static void main(String[] args) {
@@ -31,7 +29,7 @@ public class PalindromicPrimes {
 		for (int divisor = 2; divisor < number; divisor++) {
 			if (number % divisor == 0) {
 				isPrime = false;
-				break;
+				return false;
 			}
 		}
 		if (isPrime == true) {
@@ -40,16 +38,16 @@ public class PalindromicPrimes {
 			return false;
 		}
 	}
-
-//	public static boolean isPalindrome(int num) {
-//		String str = "" + num;
-//		String reversed = "";
-//		for (int i = str.length() - 1; i >= 0; i--) {
-//			reversed += str.charAt(i);
+// this is another block of code to check the Palindrome
+//		public static boolean isPalindrome(int num) {
+//			String str = "" + num;
+//			String reversed = "";
+//			for (int i = str.length() - 1; i >= 0; i--) {
+//				reversed += str.charAt(i);
+//			}
+//			return reversed.equalsIgnoreCase(str);
 //		}
-//		return reversed.equalsIgnoreCase(str);
-//	}
-	// TODO
+
 	// write a function that returns if a number is palindrome or not
 	static boolean isPalindrome(int number) {
 		// TODO
@@ -69,7 +67,9 @@ public class PalindromicPrimes {
 			low++;
 			high--;
 		}
+		
+		
 		return isPalindrome;
-	}
 
+	}
 }

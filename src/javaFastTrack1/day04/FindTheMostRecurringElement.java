@@ -7,7 +7,7 @@ public class FindTheMostRecurringElement {
 
 		int[] arr = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 3, 4, 1, 1, 2, 2, 5, 6, 6, 6, 6, 6, 6, 6, 6};
 
-		// this returns my most popular number,
+		// this returns the most popular number,
 		// for starting point, I assigned the first element as my popular number
 		int mostDuplicate = arr[0];
 		
@@ -20,7 +20,7 @@ public class FindTheMostRecurringElement {
 
 		// time complexity is O(n^2)
 		for (int i = 0; i < arr.length; i++) {
-			// we need to put zero everytime to the tempCount, 
+			// we need to put zero every-time to the tempCount, 
 			//then it will start to count very element from the zero
 			tempCount = 0;
 			for (int j = 0; j < arr.length; j++) {

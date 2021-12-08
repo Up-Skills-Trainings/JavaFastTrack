@@ -1,7 +1,7 @@
 package javaFastTrack1.day04;
 
 public class BinarySearch {
-	/** Use binary search to find the key in the list */
+	
 	public static int binarySearch(int[] list, int key) {
 		int low = 0;
 		int high = list.length - 1;
@@ -16,11 +16,11 @@ public class BinarySearch {
 				low = mid + 1;
 		}
 
-		return -low - 1; // Now high < low
+		return low;
 	}
 
 	public static void main(String[] args) {
-		int[] list = { -3, 1, 2, 4, 9, 23 };
-		System.out.println(binarySearch(list, 2));
+		int[] list = { -3, 1, 2, 3, 4, 5, 7, 8, 9, 23, 45, 67, 99};
+		System.out.println(binarySearch(list, 23));
 	}
 }
