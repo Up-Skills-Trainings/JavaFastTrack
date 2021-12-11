@@ -2,9 +2,9 @@ package javaFastTrack2.day03;
 
 public class LogicCheck {
 	public static void main(String[] args) {
-		// example for an ambiguous method. 
-		// compiler does not know which method it will call. 
-		sum(10, 20);
+		// example for an ambiguous method.
+		// compiler does not know which method it will call.
+		// sum(10, 20);
 	}
 
 	public static int camel(int n) {

@@ -32,7 +32,7 @@ public class FindingTheLargestElement {
 			}
 		}
 
-		// printing all the indexis of largest element if there are duplicates
+		// printing all the indexes of largest element if there are duplicates
 		for (int i = 0; i < array.length; i++) {
 			if (array[i] == largest) {
 				System.out.print(i + " ");

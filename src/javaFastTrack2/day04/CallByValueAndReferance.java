@@ -23,7 +23,7 @@ public class CallByValueAndReferance {
 		printArray(array);
 		increase(array);
 		// printing the array after invoke the increase method
-		System.out.println("After calling the increase method for array");
+		System.out.println("\nAfter calling the increase method for array");
 		printArray(array);
 	}
 

@@ -1,9 +1,9 @@
-package javaFastTrack2.day04;
+package javaFastTrack2.day05;
 
 import java.util.Arrays;
 
 // knowing the sorting algorithms and talking about them is a huge plus.
-public class SelectionSort {
+public class Day4Review {
 	public static void main(String[] args) {
 
 		int[] arr = { 11, 10, 14, 5, 3, 5, 7, 8, 9 };

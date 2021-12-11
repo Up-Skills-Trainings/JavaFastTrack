@@ -3,7 +3,7 @@ package javaFastTrack1.day05;
 public class TimeComplexity {
 
 	// Big O notation is the notation that show how good your algorithm is. 
-	// you can show the time complexity and space complexity of the big O notation
+	// you can show the time complexity and space complexity using the big O notation
 	// O(1)
 	// O(n)
 	// O(n^^2)
