@@ -1,7 +1,6 @@
 package javaFastTrack1.day06;
 
-import java.util.LinkedHashMap;
-import java.util.Map;
+import java.util.*;
 
 public class FrequencyOfCharacters {
 
@@ -18,16 +17,17 @@ public class FrequencyOfCharacters {
 		// and we are doing the polymorphism here
 		Map<Character, Integer> map = new LinkedHashMap<>();
 
-		for (Character each : str.toCharArray()) {
+		System.out.println(map);
+		for (Character key : str.toCharArray()) {
 
-			if (map.containsKey(each)) {
+			if (map.containsKey(key)) {
 				// update the map, we are updating the value part of the map
-				map.put(each, map.get(each) + 1);
+				map.put(key, map.get(key) + 1);
 
 				// {'h':1, 'e':1, 'l':2}
 			} else {
 				// There is no "key(char)" in the map yet, so insert it to the map
-				map.put(each, 1);
+				map.put(key, 1);
 				// {'h':1, 'e':1, 'l':1}
 			}
 

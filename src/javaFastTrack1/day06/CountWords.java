@@ -19,6 +19,7 @@ public class CountWords {
 		String[] arr = text.split("[ \n\t\r.,:;!?(){]");
 
 		// Creating another list only with non-empty elements from the arr array.
+		// And after this, we are going to have an array list.
 		List<String> list0 = new ArrayList<>();
 		for (String string : arr) {
 			if (!string.isEmpty()) {
@@ -44,18 +45,15 @@ public class CountWords {
 			String key = list.get(i).toLowerCase();
 
 			if (key.length() > 0) {
-				if (!map.containsKey(key)) {
-					map.put(key, 1);
+				if (map.containsKey(key)) {
+					map.put(key, map.get(key) + 1);
 				} else {
-					int value = map.get(key);
-					value++;
-					map.put(key, value);
-					// map.put(key, map.get(key) + 1);
+					map.put(key, 1);
 
 				}
 			}
 		}
-		// System.out.println(map);
+		//System.out.println(map);
 
 		// Get all entries into a set
 		Set<Map.Entry<String, Integer>> entrySet = map.entrySet();

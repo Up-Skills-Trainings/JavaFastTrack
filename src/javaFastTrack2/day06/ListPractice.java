@@ -36,6 +36,8 @@ public class ListPractice {
 		list.add("Chicago");
 		list.add("New York");
 		list.add("Denver");
+		list.set(0, "Austin");
+		list.add(0, "San Antonio");
 
 		System.out.println(list);
 		
