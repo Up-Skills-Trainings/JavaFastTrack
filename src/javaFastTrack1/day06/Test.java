@@ -7,7 +7,10 @@ public class Test {
 		PolymorphismPract inst2 = new PolymorphismPract();
 		
 		inst1.print();
+		inst1.method3();
+		inst1.method();
 		
 		inst2.print();
+		inst2.method2();
 	}
 }

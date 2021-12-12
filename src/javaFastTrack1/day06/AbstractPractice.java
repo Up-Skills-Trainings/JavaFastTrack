@@ -14,6 +14,10 @@ public abstract class AbstractPractice {
 	void print() {
 		System.out.println("This is from Abstract practice class");
 	}
+	
+	void method3() {
+
+	}
 }
 
 // Regular or abstract class have "is a relationship"
