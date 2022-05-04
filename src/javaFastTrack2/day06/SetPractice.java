@@ -23,10 +23,9 @@ public class SetPractice {
 		 * 
 		 * In TreeSet, which guarantees that the elements in the set are sorted.
 		 */
-		Set<String> set = new TreeSet<String>();
+		Set<String> set = new LinkedHashSet<String>();
 
 		// adding the new data
-		set.add("Dallas");
 		set.add("Dallas");
 		set.add("Chicago");
 		set.add("Houston");
@@ -34,15 +33,15 @@ public class SetPractice {
 
 		System.out.println(set);
 
-		set.add("Austin");
-
-		// returns a boolean
-		set.isEmpty();
-
-		// returns a boolean when it finds the given the object
-		set.contains("Dallas");
-		
-		System.out.println(set);
+//		set.add("Austin");
+//
+//		// returns a boolean
+//		set.isEmpty();
+//
+//		// returns a boolean when it finds the given the object
+//		set.contains("Dallas");
+//		
+//		System.out.println(set);
 	}
 
 }
