@@ -25,8 +25,6 @@ public class Day2Review {
 			}
 		}
 		
-		
-		
 	}
 }
 
