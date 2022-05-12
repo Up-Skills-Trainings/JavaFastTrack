@@ -1,4 +1,4 @@
-package javaFastTrack3.Day3;
+package javaFastTrack3.day3;
 
 public class Day2Review {
 	public static void main(String[] args) {

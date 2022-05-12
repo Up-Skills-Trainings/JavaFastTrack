@@ -1,4 +1,4 @@
-package javaFastTrack3.Day3;
+package javaFastTrack3.day3;
 
 public class Arrays {
 	public static void main(String[] args) {
@@ -13,7 +13,7 @@ public class Arrays {
 		int[] array = new int[50];
 		
 		for (int i = 0; i < array.length; i++) {
-						// returns something between 0 and 1, 0.9 >> 99.878897
+			// returns something between 0 and 1, 0.9 >> 99.878897
 			array[i] = (int)(Math.random() * 100);
 			System.out.print(array[i] + " ");
 		}

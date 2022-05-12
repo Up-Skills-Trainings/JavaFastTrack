@@ -1,4 +1,4 @@
-package javaFastTrack3.Day2;
+package javaFastTrack3.day2;
 
 public class PrimeNumbers {
 	public static void main(String[] args) {

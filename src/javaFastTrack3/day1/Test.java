@@ -1,4 +1,4 @@
-package javaFastTrack3.Day1;
+package javaFastTrack3.day1;
 
 import java.util.*;
 

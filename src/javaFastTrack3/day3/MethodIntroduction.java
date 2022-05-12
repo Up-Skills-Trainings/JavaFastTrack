@@ -1,4 +1,4 @@
-package javaFastTrack3.Day3;
+package javaFastTrack3.day3;
 
 // if the object is a apple pie, the class is the recipe of the apple pie
 public class MethodIntroduction {

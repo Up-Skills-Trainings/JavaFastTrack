@@ -1,4 +1,4 @@
-package javaFastTrack3.Day2;
+package javaFastTrack3.day3;
 
 public class PalindromicPrimes {
 	public static void main(String[] args) {

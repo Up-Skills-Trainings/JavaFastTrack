@@ -1,4 +1,4 @@
-package javaFastTrack3.Day1;
+package javaFastTrack3.day1;
 
 public class ComputeTheChange {
 	public static void main(String[] args) {

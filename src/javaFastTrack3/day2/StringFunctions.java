@@ -1,4 +1,4 @@
-package javaFastTrack3.Day2;
+package javaFastTrack3.day2;
 
 import java.util.Arrays;
 import java.util.Collections;

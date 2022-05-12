@@ -1,4 +1,4 @@
-package javaFastTrack3.Day3;
+package javaFastTrack3.day3;
 
 public class FindTheError {
 	public static void main(String[] args) {
@@ -6,7 +6,7 @@ public class FindTheError {
 	}
 
 	// Find the mistake below;
-
+	
 	public static int camel(int n) {
 		
 		if (n > 0) {
