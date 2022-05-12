@@ -1,26 +1,23 @@
 package javaFastTrack3.day4;
 
+import java.util.Arrays;
+
 public class SelectionSort {
 	public static void main(String[] args) {
 		int[] array = new int[50];
 
-//		for (int each : array) {
-//			each = (int) (Math.random() * 100);
-//		}
-		
 		for (int i = 0; i < array.length; i++) {
 			array[i] = (int) (Math.random() * 100);
 		}
 		System.out.println("Before sorting\n");
-		for (int i : array) {
-			System.out.print(i + " ");
-		}
+		System.out.println(Arrays.toString(array));
 		// int[] array = { 6, 8, 3, 5, 2, 1 };
 
 		// assuming that the array's first index has the min value
 		int minValue;
 		int minValueIndex;
-
+		
+		// the O notation of that is O(n ^ 2) which is not efficient
 		for (int i = 0; i < array.length; i++) {
 			minValue = array[i];
 			minValueIndex = i;
@@ -40,9 +37,11 @@ public class SelectionSort {
 
 		}
 		System.out.println("\nAfter sorting\n");
-		for (int i : array) {
-			System.out.print(i + " ");
-		}
+//		for (int i : array) {
+//			System.out.print(i + " ");
+//		}
+		
+		System.out.println(Arrays.toString(array));
 	}
 }
 // to practice swapping 

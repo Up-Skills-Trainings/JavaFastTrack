@@ -12,8 +12,6 @@ public class Day3Review {
 		// must be initialized
 		// num1[0] = 8;
 
-		List<Integer> list = new ArrayList<>();
-
 		// assign a random value to the array here
 		for (int i = 0; i < number.length; i++) {
 			number[i] = (int)(Math.random() * 100);
